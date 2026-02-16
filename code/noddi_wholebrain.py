@@ -18,6 +18,7 @@ DETAILS:
 
 Extracts whole-brain NODDI metrics from noddi_reg ROI outputs for a list of participants.
 The whole-brain metric is calculated as an average of the mean NODDI metric in each ROI weighted by it's masked voxels.
+All parcellations are retrieved automatically and results are separated into summary csv files by parcellation.
 
 """
 from docopt import docopt
